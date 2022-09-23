@@ -13,7 +13,7 @@ const userData = [
   }
 ];
 export default function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const loginHandler = (userDataReceived) => {
     // checking the username and password
